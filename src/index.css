@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 4rem;
+  text-align: center;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-active {
+  background: rgba(17, 14, 24, 0.8);
+}
+
+.nav-glass {
+  background: rgba(17, 14, 24, 0.9);
+  border-radius: 10px;
+}
+
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.6)!important;
+}
